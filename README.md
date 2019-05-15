@@ -122,7 +122,7 @@ webcrawler.crawl(None,True,100,None,"regex")
 只要引用此模块便可快速爬取目录遍历的所有链接。
 
 ```python
-from crawler import Webcrawler
+from tinycrawler import Webcrawler
 
 def fetch(_url):
     webcrawler = Webcrawler(_url,5)
